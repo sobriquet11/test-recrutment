@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.connexion__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.connexion__header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo__container{
+  width: 100px;
+  height: 100px;
+
+}
+.logo__image{
+  width: 100%;
+  height: 100%;
+}
+.logo__title{
+  font-size: 20pt;
+}
+
+.connexion__form-container{
+  margin: auto;
+  width: 100%;
+}
+.card{
+  border-radius: 10px;
+}
+.form-title{
+  font-size: 12pt;
+}
+.form, .form-mdp{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+
+}
+.form{
+  column-gap: 250px;
+}
+.form-mdp{
+  column-gap: 200px;
+}
+.button{
+  margin: 20px ;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

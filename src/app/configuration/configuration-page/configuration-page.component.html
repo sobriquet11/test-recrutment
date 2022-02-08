@@ -1,0 +1,43 @@
+<section class="connexion">
+  <div class="connexion__container">
+    <div class="connexion__header">
+      <figure class="logo__container">
+        <img
+          class="logo__image"
+          src="https://www.enerfox.fr/wp-content/uploads/2019/07/logo-enerfox-1.jpeg"
+          alt="logo de l'entreprise ENERFOX"
+        />
+      </figure>
+      <span class="logo__title">Interface de configuration</span>
+    </div>
+    <div class="connexion__form-container" fxLayoutAlign="center">
+      <div class="card__container" fxFlex="50%">
+        <mat-card class="card">
+          <span class="form-title">Parametres Ethernet</span>
+          <div class="card__body">
+            <div class="form">
+              <label>Obtenir l'adresse IP automatiquement (DHCP)</label>
+              <mat-slide-toggle> désactivé</mat-slide-toggle>
+            </div>
+            <div class="form">
+              <label for="ip">Adresse IP</label>
+              <input required placeholder="text" type="text" name="ip" />
+            </div>
+            <div class="form-masque">
+              <label for="masque">Masque sous-réseau</label>
+              <input type="text" name="masque" />
+            </div>
+            <div class="form">
+              <label for="Passerelle">Passerelle</label>
+              <input type="text" name="Passerelle" />
+            </div>
+
+            <div class="button-container">
+              <button class="button">Sauvegarder</button>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>

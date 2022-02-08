@@ -1,0 +1,35 @@
+<section class="connexion">
+  <div class="connexion__container">
+    <div class="connexion__header">
+      <figure class="logo__container">
+        <img  class="logo__image" src="https://www.enerfox.fr/wp-content/uploads/2019/07/logo-enerfox-1.jpeg" alt="logo de l'entreprise ENERFOX">
+
+      </figure>
+      <span class="logo__title">Interface de configuration</span>
+    </div>
+    <div class="connexion__form-container" fxLayoutAlign="center">
+      <div class="card__container"  fxFlex="50%">
+        <mat-card class="card">
+          <span class="form-title">Connexion</span>
+          <div class="card__body">
+            <div class="form">
+              <label for="login">Login</label>
+              <input type="text" name="login" placeholder="login">
+            </div>
+
+            <div class="form-mdp">
+             <label for="password">Mot de passe</label>
+             <input type="password" name="password" placeholder="Mot de passe">
+            </div>
+            <div class="button-container">
+              <button (click)="connexion()" class="button">Connecter</button>
+            </div>
+          </div>
+          <a class="link" routerLink="inscription">Créer un identifiant/mot de passe</a>
+
+        </mat-card>
+      </div>
+
+    </div>
+  </div>
+</section>
